@@ -1,0 +1,100 @@
+
+@font-face{
+    font-family: DupuyBalloon;
+    src: url('./fontFamily/DupuyballoonBold-rglA.ttf');
+}
+@font-face {
+    font-family: Kelvetical;
+    src: url('./fontFamily/KelveticaNobis-A5z6.ttf');
+}
+
+
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background-color: #f4e4ba;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    min-height: 45vh;
+    width: 35vw;
+}
+.container>h2{
+    font-family:  DupuyBalloon;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin: 0px 30px 30px 0px;
+}
+form{
+    margin: 2rem  0 2rem 0 ;
+    
+}
+
+form select ,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border:1px solid lightblue;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 12px 10px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.dropdown i{
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.3rem;
+    border-radius: 0.5rem;
+    border:1px solid lightblue;
+    padding: 0px 6px;
+}
+.select-container img{
+    max-width: 2rem;
+}
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+}
+.msg{
+    margin: 2rem 0px;
+}
+form button{
+    cursor: pointer;
+    height: 3rem;
+    background-color: #af4d98;
+    padding: 12px 0px;
+    color: white;
+    font-size: 1.12rem;
+}
+.msg{
+    text-align: center;
+}
